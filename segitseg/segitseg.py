@@ -37,3 +37,12 @@ for line in file:
 
 # tomb random eleme
 random.choice(tomb)
+
+
+# int tomb novelese:
+
+tomb.append(2)
+
+#string tomb novelese:
+
+tomb += "bele"
