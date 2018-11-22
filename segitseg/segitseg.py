@@ -14,7 +14,12 @@ import urllib2
 #bekeres easyguival
 
 benev=enterbox(msg="Kerek egy keresztnevet(0-val kilepes):")
-bepont=enterbox(msg="Kerek egy pontszamot(0-val kilepes):")
+
+#kiiras easyguival
+
+msgbox(msg="",title="") #rovid szoveg kiirasa
+textbox(msg="",title="", text="0") # text u.a mint a msg csak hozzabb szoveget lehet vele kiiratni(legordulo savval)
+igen = buttonbox(msg="Kati ker meg lapot?",title=" 21-es játék",choices=("igen", "nem"))
 
 # file letrehozas kiiratashoz (hozzafuzes): 
 file = open("szomoru.txt", "a")

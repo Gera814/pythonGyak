@@ -86,10 +86,11 @@ file = open("chat_out.txt", "w")
 
 # kiirom a 30 sort a minta szerint a chat_out.txt fileba
 
+
 for i in range(30):
   file.write(sample(kimondja,1)[0][0] + ": " + sample(ki,1)[0][0] +" " + sample(kivel,1)[0][0] + " " + sample(mikor,1)[0][0] + " " + 
-sample(hol,1)[0][0] + " " + sample(mitcsin,1)[0][0] + " " +  sample(smiley,1)[0][0] + "\n")
-  
+  sample(hol,1)[0][0] + " " + sample(mitcsin,1)[0][0] + " " +  sample(smiley,1)[0][0] + "\n")
+
 
 
 file.close()
